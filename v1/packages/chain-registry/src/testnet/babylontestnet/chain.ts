@@ -3,11 +3,11 @@ const info: Chain = {
   $schema: '../../chain.schema.json',
   chain_name: 'babylontestnet',
   status: 'live',
-  website: 'https://www.babylonchain.io',
+  website: 'https://babylonlabs.io/',
   network_type: 'testnet',
-  pretty_name: 'Babylon Testnet 3',
+  pretty_name: 'Babylon Testnet',
   chain_type: 'cosmos',
-  chain_id: 'bbn-test3',
+  chain_id: 'bbn-test-5',
   pre_fork_chain_name: 'babylontestnet1',
   bech32_prefix: 'bbn',
   slip44: 118,
@@ -32,18 +32,19 @@ const info: Chain = {
   },
   apis: {
     rpc: [{
-        address: 'rpc.testnet3.babylonchain.io:443',
-        provider: 'Babylon foundation'
+        address: 'https://babylon-testnet-rpc.nodes.guru',
+        provider: 'NodesGuru'
       }],
     rest: [{
-        address: 'lcd.testnet3.babylonchain.io:443',
-        provider: 'Babylon foundation'
+        address: 'https://babylon-testnet-api.nodes.guru',
+        provider: 'NodesGuru'
       }],
     grpc: []
   },
   explorers: [{
       kind: 'babylonscan',
-      url: 'https://babylonscan.io'
+      url: 'https://babylon-testnet.l2scan.co',
+      tx_page: 'https://babylon-testnet.l2scan.co/tx/${txHash}'
     }, {
       kind: 'explorers.guru',
       url: 'https://testnet.babylon.explorers.guru',
