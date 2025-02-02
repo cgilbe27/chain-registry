@@ -88,6 +88,10 @@ const info: Chain = {
       {
         address: 'https://rpc.atomone.citizenweb3.com:443',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://atomone-mainnet-rpc.itrocket.net:443',
+        provider: 'ITRocket'
       }
     ],
     rest: [
@@ -142,6 +146,10 @@ const info: Chain = {
       {
         address: 'https://api.atomone.citizenweb3.com',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'https://atomone-mainnet-api.itrocket.net',
+        provider: 'ITRocket'
       }
     ],
     grpc: [
@@ -180,6 +188,10 @@ const info: Chain = {
       {
         address: ' grpc.atomone.citizenweb3.com',
         provider: 'Citizen Web3'
+      },
+      {
+        address: 'atomone-mainnet-grpc.itrocket.net:443',
+        provider: 'ITRocket'
       }
     ]
   },
@@ -219,6 +231,12 @@ const info: Chain = {
       url: 'https://mainnet.explorer.aviaone.com/atomone',
       tx_page: 'https://mainnet.explorer.aviaone.com/atomone/tx/${txHash}',
       account_page: 'https://mainnet.explorer.aviaone.com/atomone/account/${accountAddress}'
+    },
+    {
+      kind: 'ITRocket',
+      url: 'https://mainnet.itrocket.net/atomone',
+      tx_page: 'https://mainnet.itrocket.net/atomone/tx/${txHash}',
+      account_page: 'https://mainnet.itrocket.net/atomone/account/${accountAddress}'
     }
   ],
   images: [{

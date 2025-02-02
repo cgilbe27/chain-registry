@@ -67,7 +67,7 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://elys.rpc.vnodes.io:443',
+        address: 'https://elys.rpc.vnodesv.net:443',
         provider: 'vNodes[V] > s[E]vices'
       },
       {
@@ -137,7 +137,7 @@ const info: Chain = {
         provider: 'Allnodes ⚡️ Nodes & Staking'
       },
       {
-        address: 'https://elys.rest.vnodes.io:443',
+        address: 'https://elys.rest.vnodesv.net:443',
         provider: 'vNodes[V] > s[E]vices'
       },
       {
