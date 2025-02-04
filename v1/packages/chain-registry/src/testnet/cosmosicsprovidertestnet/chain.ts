@@ -50,6 +50,10 @@ const info: Chain = {
       {
         address: 'https://cosmos-testnet-rpc.itrocket.net',
         provider: 'ITRocket'
+      },
+      {
+        address: 'https://cosmos-testnet-rpc.ibs.team',
+        provider: 'Inter Blockchain Services'
       }
     ],
     rest: [
@@ -72,6 +76,10 @@ const info: Chain = {
       {
         address: 'https://cosmos-testnet-api.itrocket.net',
         provider: 'ITRocket'
+      },
+      {
+        address: 'https://cosmos-testnet-api.ibs.team',
+        provider: 'Inter Blockchain Services'
       }
     ],
     grpc: [
