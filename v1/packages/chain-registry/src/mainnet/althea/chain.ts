@@ -79,6 +79,11 @@ const info: Chain = {
       url: 'https://staking-explorer.com/explorer/althea',
       tx_page: 'https://staking-explorer.com/transaction.php?chain=althea&tx=${txHash}',
       account_page: 'https://staking-explorer.com/account.php?chain=althea&addr=${accountAddress}'
+    }, {
+      kind: 'mintscan',
+      url: 'https://www.mintscan.io/althea',
+      tx_page: 'https://www.mintscan.io/althea/transactions/${txHash}',
+      account_page: 'https://www.mintscan.io/althea/accounts/${accountAddress}'
     }]
 };
 export default info;
