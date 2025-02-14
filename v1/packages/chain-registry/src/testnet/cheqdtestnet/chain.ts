@@ -15,9 +15,9 @@ const info: Chain = {
     fee_tokens: [{
         denom: 'ncheq',
         fixed_min_gas_price: 5000,
-        low_gas_price: 10000,
-        average_gas_price: 15000,
-        high_gas_price: 20000
+        low_gas_price: 5000,
+        average_gas_price: 7500,
+        high_gas_price: 10000
       }]
   },
   codebase: {

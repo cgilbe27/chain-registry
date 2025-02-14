@@ -9,7 +9,7 @@ const info: Chain = {
   chain_type: 'cosmos',
   chain_id: 'kima_testnet',
   bech32_prefix: 'kima',
-  daemon_name: 'uKIMA',
+  daemon_name: 'kimad',
   node_home: '$HOME/.kima',
   key_algos: ['secp256k1'],
   slip44: 118,
@@ -22,23 +22,35 @@ const info: Chain = {
         high_gas_price: 0.04
       }]
   },
+  staking: {
+    staking_tokens: [{
+        denom: 'uKIMA'
+      }],
+    lock_duration: {
+      time: '259200s'
+    }
+  },
   codebase: {
 
   },
   apis: {
     rpc: [{
-        address: 'https://rpc-testnet.kima.finance/',
+        address: 'https://rpc.sardis.kima.network/',
+        provider: 'Kima Network'
+      }],
+    grpc: [{
+        address: 'https://grpc.sardis.kima.network',
         provider: 'Kima Network'
       }],
     rest: [{
-        address: 'https://api-testnet.kima.finance',
+        address: 'https://api.sardis.kima.network/',
         provider: 'Kima Network'
       }]
   },
   explorers: [{
       kind: 'Kima Network',
-      url: 'https://explorer-testnet.kima.finance/',
-      tx_page: 'https://explorer-testnet.kima.finance/transactions/${txHash}'
+      url: 'https://explorer.sardis.kima.network/',
+      tx_page: 'https://explorer.sardis.kima.network/transactions/${txHash}'
     }]
 };
 export default info;

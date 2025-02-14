@@ -9,8 +9,8 @@ const info: Chain = {
   chain_type: 'cosmos',
   chain_id: 'kima_network',
   bech32_prefix: 'kima',
-  daemon_name: 'uKIMA',
-  node_home: '$HOME/.kimad',
+  daemon_name: 'kimad',
+  node_home: '$HOME/.kima',
   key_algos: ['secp256k1'],
   slip44: 118,
   fees: {
@@ -25,7 +25,10 @@ const info: Chain = {
   staking: {
     staking_tokens: [{
         denom: 'uKIMA'
-      }]
+      }],
+    lock_duration: {
+      time: '1814400s'
+    }
   },
   codebase: {
 
