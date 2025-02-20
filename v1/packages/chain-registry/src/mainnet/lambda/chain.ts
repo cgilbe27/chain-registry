@@ -42,10 +42,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://rpc.lambda.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://lambda-rpc.noders.services',
         provider: '[NODERS]TEAM'
       },
@@ -64,10 +60,6 @@ const info: Chain = {
         provider: '🔥STAVR🔥'
       },
       {
-        address: 'https://api.lambda.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://lambda-api.noders.services',
         provider: '[NODERS]TEAM'
       },
@@ -76,20 +68,13 @@ const info: Chain = {
         provider: '🚀 WHEN MOON 🌕 WHEN LAMBO 🔥'
       }
     ],
-    grpc: [
-      {
+    grpc: [{
         address: 'http://lambda.grpc.m.stavr.tech:2287',
         provider: '🔥STAVR🔥'
-      },
-      {
-        address: 'grpc.lambda.nodestake.top:443',
-        provider: 'NodeStake'
-      },
-      {
+      }, {
         address: 'lambda-grpc.noders.services:31090',
         provider: '[NODERS]TEAM'
-      }
-    ],
+      }],
     "evm-http-jsonrpc": [
       {
         address: 'https://jsonrpc-lambda.d-stake.xyz',
@@ -110,11 +95,6 @@ const info: Chain = {
       kind: 'blockscout',
       url: 'https://explorer.lambda.im/',
       tx_page: 'https://explorer.lambda.im/tx/${txHash}'
-    },
-    {
-      kind: 'NodeStake',
-      url: 'https://explorer.nodestake.top/lambda',
-      tx_page: 'https://explorer.nodestake.top/lambda/txs/${txHash}'
     },
     {
       kind: '🔥STAVR🔥',

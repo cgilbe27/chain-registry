@@ -62,7 +62,7 @@ const info: Chain = {
         provider: 'Inter Blockchain Services'
       },
       {
-        address: 'https://rpc.kyve.nodestake.top',
+        address: 'https://rpc.kyve.nodestake.org',
         provider: 'NodeStake'
       },
       {
@@ -116,7 +116,7 @@ const info: Chain = {
         provider: 'Inter Blockchain Services'
       },
       {
-        address: 'https://api.kyve.nodestake.top',
+        address: 'https://api.kyve.nodestake.org',
         provider: 'NodeStake'
       },
       {
@@ -146,7 +146,7 @@ const info: Chain = {
     ],
     grpc: [
       {
-        address: 'https://grpc.kyve.nodestake.top',
+        address: 'grpc.kyve.nodestake.org:443',
         provider: 'NodeStake'
       },
       {
@@ -204,9 +204,9 @@ const info: Chain = {
     },
     {
       kind: 'NodeStake Explorer',
-      url: 'https://explorer.nodestake.top/kyve',
-      tx_page: 'https://explorer.nodestake.top/kyve/txs/${txHash}',
-      account_page: 'https://explorer.nodestake.top/kyve/account/${accountAddress}'
+      url: 'https://explorer.nodestake.org/kyve',
+      tx_page: 'https://explorer.nodestake.org/kyve/txs/${txHash}',
+      account_page: 'https://explorer.nodestake.org/kyve/account/${accountAddress}'
     },
     {
       kind: '🔥STAVR🔥',

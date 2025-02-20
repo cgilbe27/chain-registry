@@ -49,10 +49,6 @@ const info: Chain = {
         provider: 'Polkachu'
       },
       {
-        address: 'https://rpc.agoric.nodestake.org',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://agoric.rpc.kjnodes.com',
         provider: 'kjnodes'
       },
@@ -96,10 +92,6 @@ const info: Chain = {
     rest: [
       {
         address: 'https://main.api.agoric.net:443'
-      },
-      {
-        address: 'https://api.agoric.nodestake.org',
-        provider: 'NodeStake'
       },
       {
         address: 'https://agoric-api.polkachu.com',
@@ -147,10 +139,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc.agoric.nodestake.org:443',
-        provider: 'NodeStake'
-      },
       {
         address: 'agoric-grpc.polkachu.com:14490',
         provider: 'Polkachu'

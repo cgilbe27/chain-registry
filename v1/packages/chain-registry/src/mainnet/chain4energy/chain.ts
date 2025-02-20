@@ -44,10 +44,6 @@ const info: Chain = {
         provider: 'DTEAM'
       },
       {
-        address: 'https://rpc.c4e.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://c4e.rpc.bccnodes.com',
         provider: 'BccNodes'
       },
@@ -170,10 +166,6 @@ const info: Chain = {
         provider: 'DTEAM'
       },
       {
-        address: 'https://api.c4e.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://c4e.lcd.bccnodes.com',
         provider: 'BccNodes'
       },
@@ -271,10 +263,6 @@ const info: Chain = {
       }
     ],
     grpc: [
-      {
-        address: 'grpc.c4e.nodestake.top:443',
-        provider: 'NodeStake'
-      },
       {
         address: 'grpc.c4e.mainnet.dteam.tech:30090',
         provider: 'DTEAM'
@@ -400,8 +388,8 @@ const info: Chain = {
     },
     {
       kind: 'NodeStake Explorer',
-      url: 'https://explorer.nodestake.top/chain4energy',
-      tx_page: 'https://explorer.nodestake.top/chain4energy/transactions/${txHash}'
+      url: 'https://explorer.nodestake.org/chain4energy',
+      tx_page: 'https://explorer.nodestake.org/chain4energy/transactions/${txHash}'
     },
     {
       kind: '𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀 Explorer',

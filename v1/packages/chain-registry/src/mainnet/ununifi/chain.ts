@@ -44,10 +44,6 @@ const info: Chain = {
         provider: 'CauchyE'
       },
       {
-        address: 'https://rpc.ununifi.nodestake.top',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://rpc.lavenderfive.com:443/ununifi',
         provider: 'Lavender.Five Nodes 🐝'
       },
@@ -68,10 +64,6 @@ const info: Chain = {
       {
         address: 'https://b.lcd.ununifi.cauchye.net:1318',
         provider: 'CauchyE'
-      },
-      {
-        address: 'https://api.ununifi.nodestake.top',
-        provider: 'NodeStake'
       },
       {
         address: 'https://rest.lavenderfive.com:443/ununifi',
@@ -96,10 +88,6 @@ const info: Chain = {
         provider: 'AutoStake 🛡️ Slash Protected'
       },
       {
-        address: 'grpc.ununifi.nodestake.top:9090',
-        provider: 'NodeStake'
-      },
-      {
         address: 'https://grpc-ununifi.nodeist.net',
         provider: 'Nodeist'
       },
@@ -121,8 +109,8 @@ const info: Chain = {
     },
     {
       kind: 'NodeStake Explorer',
-      url: 'https://explorer.nodestake.top/ununifi',
-      tx_page: 'https://explorer.nodestake.top/ununifi/tx/${txHash}'
+      url: 'https://explorer.nodestake.org/ununifi',
+      tx_page: 'https://explorer.nodestake.org/ununifi/tx/${txHash}'
     },
     {
       kind: 'staking-explorer.com',

@@ -49,10 +49,6 @@ const info: Chain = {
         provider: 'MantiCore'
       },
       {
-        address: 'https://rpc.rebus.nodestake.top/',
-        provider: 'NodeStake'
-      },
-      {
         address: 'http://rebus.rpc.m.stavr.tech:40107',
         provider: '🔥STAVR🔥'
       },
@@ -93,10 +89,6 @@ const info: Chain = {
       {
         address: 'https://rebus.api.manticore.team:443/',
         provider: 'MantiCore'
-      },
-      {
-        address: 'https://api.rebus.nodestake.top/',
-        provider: 'NodeStake'
       },
       {
         address: 'https://rebus.api.m.stavr.tech',
@@ -141,10 +133,6 @@ const info: Chain = {
         provider: 'BccNodes'
       },
       {
-        address: 'grpc.rebus.nodestake.top:443',
-        provider: 'NodeStake'
-      },
-      {
         address: 'rebus.grpc.nodersteam.com:9181',
         provider: '[NODERS]TEAM'
       },
@@ -182,8 +170,8 @@ const info: Chain = {
     },
     {
       kind: 'NodeStake',
-      url: 'https://explorer.nodestake.top/rebus',
-      tx_page: 'https://explorer.nodestake.top/rebus/tx/${txHash}'
+      url: 'https://explorer.nodestake.org/rebus',
+      tx_page: 'https://explorer.nodestake.org/rebus/tx/${txHash}'
     },
     {
       kind: 'staking-explorer.com',

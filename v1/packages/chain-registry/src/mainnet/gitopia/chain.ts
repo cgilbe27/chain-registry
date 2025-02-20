@@ -51,10 +51,6 @@ const info: Chain = {
         provider: 'Lavender.Five Nodes 🐝'
       },
       {
-        address: 'https://rpc.gitopia.nodestake.org:443',
-        provider: 'nodestake'
-      },
-      {
         address: 'https://gitopia-rpc.staketab.org:443',
         provider: 'Staketab'
       },
@@ -167,10 +163,6 @@ const info: Chain = {
       {
         address: 'https://rest.lavenderfive.com:443/gitopia',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://api.gitopia.nodestake.org:443',
-        provider: 'nodestake'
       },
       {
         address: 'https://gitopia-rest.staketab.org',
@@ -301,10 +293,6 @@ const info: Chain = {
       {
         address: 'gitopia.lavenderfive.com:443',
         provider: 'Lavender.Five Nodes 🐝'
-      },
-      {
-        address: 'https://grpc.gitopia.nodestake.org:443',
-        provider: 'nodestake'
       },
       {
         address: 'https://grpc-gitopia.nodeist.net',
